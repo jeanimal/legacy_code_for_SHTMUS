@@ -1,0 +1,29 @@
+Spitting last number in files of Real
+skipping non-file .
+skipping non-file ..
+PMMw.xca.100.666.1	0.759760
+PMMw.xch.100.2000.1	0.859500
+PMMw.xcl.100.276.1	0.699275
+PMMw.xfa.100.23653.1	0.654251
+PMMw.xfu.100.1128.1	0.709220
+PMMw.xgl.100.325.1	0.950769
+PMMw.xhm.100.1225.1	0.645714
+PMMw.xhs.100.231.1	1.000000
+PMMw.xkd.100.1035.1	0.795169
+PMMw.xln.100.1653.1	0.857834
+PMMw.xmn.100.496.1	0.763105
+PMMw.xo2.100.91.1	0.879121
+PMMw.xox.100.136.1	0.816176
+PMMw.xpo.100.190.1	0.726316
+PMMw.xpr.100.1275.1	0.896471
+PMMw.xsf.100.55.1	0.872727
+PMMw.xsh.100.1596.1	0.676692
+PMMw.xsl.100.595.1	0.836975
+PMMw.xwo.100.435.1	0.749425
+
+------------------------
+done all files in Real.
+sum is 15.1485
+mean is 0.797289473684211
+(0.025 confidence interval, median, 0.975 confidence interval):
+(0.749425, 0.749425, 0.749425)

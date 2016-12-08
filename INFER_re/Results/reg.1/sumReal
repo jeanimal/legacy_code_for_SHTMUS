@@ -1,0 +1,30 @@
+Spitting last number in files of Real
+skipping non-file .
+skipping non-file ..
+Reg.xca.100.666.1	0.863363
+Reg.xch.100.2000.1	0.884000
+Reg.xcl.100.276.1	0.746377
+Reg.xfa.100.23653.1	0.655308
+Reg.xfu.100.1128.1	0.840426
+Reg.xgl.100.325.1	0.953846
+Reg.xhm.100.1225.1	0.675918
+Reg.xhs.100.231.1	1.000000
+Reg.xkd.100.1035.1	0.914010
+Reg.xln.100.1653.1	0.902601
+Reg.xmn.100.496.1	0.793347
+Reg.xo2.100.91.1	0.780220
+Reg.xox.100.136.1	0.911765
+Reg.xpo.100.190.1	0.942105
+Reg.xpr.100.1275.1	0.884706
+Reg.xsf.100.55.1	0.836364
+Reg.xsh.100.1596.1	0.734962
+Reg.xsl.100.595.1	0.796639
+Reg.xwo.100.435.1	0.777011
+
+------------------------
+done 19 files in Real.
+sum is 15.892968
+mean is 0.836472
+
+(0.025 confidence interval, median, 0.975 confidence interval):
+(0.655308, 0.840426, 1.000000)

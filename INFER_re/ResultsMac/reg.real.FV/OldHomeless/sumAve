@@ -1,0 +1,30 @@
+Spitting last number in files of Ave
+skipping non-file .
+skipping non-file ..
+Reg.xca.100.153.10000.FV	0.898076
+Reg.xch.100.2000.10000.FV	0.884375
+Reg.xcl.100.66.10000.FV	0.807077
+Reg.xfa.100.5886.10000.FV	0.670637
+Reg.xfu.100.276.10000.FV	0.849811
+Reg.xgl.100.78.10000.FV	0.950624
+Reg.xhm.100.300.10000.FV	0.689767
+Reg.xhs.100.55.10000.FV	0.950838
+Reg.xkd.100.253.10000.FV	0.921196
+Reg.xln.100.406.10000.FV	0.905140
+Reg.xmn.100.120.10000.FV	0.806011
+Reg.xo2.100.21.10000.FV	0.842090
+Reg.xox.100.28.10000.FV	0.928554
+Reg.xpo.100.45.10000.FV	0.954211
+Reg.xpr.100.300.10000.FV	0.897023
+Reg.xsf.100.10.10000.FV	0.908780
+Reg.xsh.100.378.10000.FV	0.810146
+Reg.xsl.100.136.10000.FV	0.859735
+Reg.xwo.100.105.10000.FV	0.780584
+
+------------------------
+done 19 files in Ave.
+sum is 16.314675
+mean is 0.858667105263158
+
+(0.025 confidence interval, median, 0.975 confidence interval):
+(0.670637, 0.884375, 0.954211)

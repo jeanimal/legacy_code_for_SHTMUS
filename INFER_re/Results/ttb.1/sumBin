@@ -1,0 +1,31 @@
+Spitting last number in files of Bin
+skipping non-file .
+skipping non-file ..
+PMMw.atm.100.496.1	0.725806
+PMMw.atw.100.435.1	0.705747
+PMMw.car.100.666.1	0.708709
+PMMw.chr.100.77815.1	0.731870
+PMMw.cit.100.3403.1	0.741552
+PMMw.cld.100.276.1	0.673913
+PMMw.fat.100.23653.1	0.587663
+PMMw.ful.100.1128.1	0.776152
+PMMw.glp.100.325.1	0.835385
+PMMw.hmf.100.1225.1	0.688571
+PMMw.hse.100.231.1	0.861472
+PMMw.kid.100.1035.1	0.741063
+PMMw.lnd.100.1653.1	0.796733
+PMMw.o2u.100.91.1	0.785714
+PMMw.oxd.100.136.1	0.838235
+PMMw.pol.100.190.1	0.773684
+PMMw.prf.100.1275.1	0.796471
+PMMw.shl.100.1596.1	0.647870
+PMMw.slp.100.595.1	0.781513
+PMMw.soz.100.55.1	0.836364
+
+------------------------
+done 20 files in Bin.
+sum is 15.034487
+mean is 0.75172435
+
+(0.025 confidence interval, median, 0.975 confidence interval):
+(0.587663, 0.773684, 0.861472)

@@ -1,0 +1,10 @@
+A simple test of 
+dirci.pl
+my perl program to calculate confidence intervals
+for all files in a directory.
+
+file1 : the numbers from 1 to 100, in order
+file2 : like file1 but in a slightly unsorted state
+file3 : 50 1's
+
+Jean, Oct 2001

@@ -1,0 +1,113 @@
+### Makefile for pmmnew 
+#  CFLAGS  = -O3 -ggdb
+#  CC  = cc for nomal life, c++ for good debugging comments 
+
+# -lm links the math library, libm.a .
+# "lib" and ".a" are automatically added.
+
+CFLAGS	= -O3 -lm  
+CC 	= c++ 
+SRCS 	= llist.c choose.c show_choose.c fileio.c\
+	  filldatastrs.c pprint.c ranks.c main.c\
+	  fillcueorders.c getsiminfo.c pmmutils.c linutils.c\
+          takethebest.c weightedlinear.c unitlinear.c\
+	  weightedtally.c unittally.c minimalist.c\
+	  takethelast.c allalgutils.c crossval.c\
+	  regression.c mlreg.c statlib.c arrays.c\
+	  stats.c simple_bayes.c 
+HEADRS	= llist.h choose.h show_choose.h fileio.h \
+	  filldatastrs.h pprint.h ranks.h main.h \
+	  fillcueorders.h getsiminfo.h pmmutils.h linutils.h\
+	  takethebest.h weightedlinear.h unitlinear.h\
+	  weightedtally.h unittally.h umacros.h\
+	  minimalist.h takethelast.h allalgutils.h\
+	  variables.h crossval.h\
+	  regression.h mlreg.h statlib.h arrays.h global.h\
+	  stats.h simple_bayes.h
+OBJECTS = $(SRCS:.c=.o)
+
+pmmnew: $(OBJECTS) 
+	$(CC) $(CFLAGS) $(OBJECTS) -o pmmnew 
+
+depend:
+	makedepend -- $(CFLAGS) -- $(SRCS) $(HEADRS)
+
+clean:
+	rm *.o pmmnew
+
+
+
+# DO NOT DELETE THIS LINE -- make depend depends on it.
+
+llist.o: /usr/include/stdio.h /usr/include/sys/feature_tests.h
+llist.o: /usr/include/stdlib.h /usr/include/time.h main.h llist.h umacros.h
+choose.o: /usr/include/stdio.h /usr/include/sys/feature_tests.h
+choose.o: /usr/include/stdlib.h choose.h
+show_choose.o: main.h show_choose.h /usr/include/stdio.h
+show_choose.o: /usr/include/sys/feature_tests.h /usr/include/stdlib.h
+fileio.o: main.h fileio.h /usr/include/stdio.h
+fileio.o: /usr/include/sys/feature_tests.h /usr/include/stdlib.h
+filldatastrs.o: /usr/include/stdlib.h /usr/include/sys/feature_tests.h
+filldatastrs.o: /usr/include/stdio.h main.h filldatastrs.h umacros.h llist.h
+filldatastrs.o: /usr/include/string.h pprint.h
+pprint.o: /usr/include/stdio.h /usr/include/sys/feature_tests.h main.h
+pprint.o: pprint.h
+ranks.o: /usr/include/stdlib.h /usr/include/sys/feature_tests.h main.h
+ranks.o: ranks.h choose.h show_choose.h llist.h /usr/include/stdio.h
+ranks.o: umacros.h
+main.o: /usr/include/stdio.h /usr/include/sys/feature_tests.h
+main.o: /usr/include/time.h /usr/include/stdlib.h variables.h main.h
+main.o: getsiminfo.h ranks.h filldatastrs.h fileio.h pprint.h fillcueorders.h
+main.o: takethebest.h weightedlinear.h unitlinear.h weightedtally.h
+main.o: unittally.h minimalist.h takethelast.h arrays.h regression.h
+main.o: crossval.h simple_bayes.h
+fillcueorders.o: /usr/include/stdio.h /usr/include/sys/feature_tests.h
+fillcueorders.o: /usr/include/stdlib.h main.h llist.h umacros.h
+fillcueorders.o: fillcueorders.h
+getsiminfo.o: /usr/include/stdio.h /usr/include/sys/feature_tests.h
+getsiminfo.o: /usr/include/string.h /usr/include/stdlib.h main.h getsiminfo.h
+getsiminfo.o: variables.h
+pmmutils.o: /usr/include/stdio.h /usr/include/sys/feature_tests.h
+pmmutils.o: /usr/include/stdlib.h main.h pmmutils.h umacros.h pprint.h
+linutils.o: /usr/include/stdio.h /usr/include/sys/feature_tests.h
+linutils.o: /usr/include/stdlib.h main.h umacros.h linutils.h
+takethebest.o: /usr/include/stdio.h /usr/include/sys/feature_tests.h main.h
+takethebest.o: allalgutils.h pmmutils.h umacros.h takethebest.h
+weightedlinear.o: /usr/include/stdio.h /usr/include/sys/feature_tests.h
+weightedlinear.o: /usr/include/stdlib.h main.h umacros.h allalgutils.h
+weightedlinear.o: linutils.h weightedlinear.h
+unitlinear.o: /usr/include/stdio.h /usr/include/sys/feature_tests.h
+unitlinear.o: /usr/include/stdlib.h main.h umacros.h allalgutils.h linutils.h
+unitlinear.o: unitlinear.h
+weightedtally.o: /usr/include/stdio.h /usr/include/sys/feature_tests.h
+weightedtally.o: /usr/include/stdlib.h main.h umacros.h allalgutils.h
+weightedtally.o: linutils.h weightedtally.h
+unittally.o: /usr/include/stdio.h /usr/include/sys/feature_tests.h
+unittally.o: /usr/include/stdlib.h main.h umacros.h allalgutils.h linutils.h
+unittally.o: unittally.h
+minimalist.o: /usr/include/stdio.h /usr/include/sys/feature_tests.h main.h
+minimalist.o: allalgutils.h pmmutils.h umacros.h fillcueorders.h pprint.h
+minimalist.o: minimalist.h
+takethelast.o: /usr/include/stdio.h /usr/include/sys/feature_tests.h main.h
+takethelast.o: allalgutils.h pmmutils.h takethelast.h fillcueorders.h
+allalgutils.o: /usr/include/stdio.h /usr/include/sys/feature_tests.h
+allalgutils.o: /usr/include/stdlib.h main.h allalgutils.h umacros.h
+crossval.o: /usr/include/stdlib.h /usr/include/sys/feature_tests.h
+crossval.o: /usr/include/stdio.h main.h crossval.h llist.h umacros.h pprint.h
+regression.o: /usr/include/stdlib.h /usr/include/sys/feature_tests.h
+regression.o: /usr/include/stdio.h main.h umacros.h /usr/include/math.h
+regression.o: stats.h pprint.h mlreg.h arrays.h global.h regression.h llist.h
+mlreg.o: /usr/include/stdlib.h /usr/include/sys/feature_tests.h
+mlreg.o: /usr/include/stdio.h /usr/include/math.h global.h mlreg.h arrays.h
+mlreg.o: statlib.h main.h
+statlib.o: /usr/include/math.h statlib.h global.h
+arrays.o: arrays.h /usr/include/stdio.h /usr/include/sys/feature_tests.h
+arrays.o: /usr/include/stdlib.h
+stats.o: /usr/include/stdio.h /usr/include/sys/feature_tests.h
+stats.o: /usr/include/math.h main.h stats.h
+simple_bayes.o: /usr/include/stdio.h /usr/include/sys/feature_tests.h
+simple_bayes.o: /usr/include/stdlib.h main.h allalgutils.h pmmutils.h
+simple_bayes.o: umacros.h simple_bayes.h
+llist.o: /usr/include/stdio.h /usr/include/sys/feature_tests.h
+llist.o: /usr/include/stdlib.h umacros.h
+mlreg.o: arrays.h

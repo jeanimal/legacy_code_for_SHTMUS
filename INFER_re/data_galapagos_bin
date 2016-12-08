@@ -1,0 +1,27 @@
+glp 26 6
+island1	1	444	1	1	1	1	0	0	0	
+island2	2	347	1	1	1	1	0	0	1	
+island3	3	285	1	1	1	1	0	1	0	
+island4	4	280	1	1	1	1	1	1	0	
+island5	5	237	1	1	1	1	0	0	1	
+island6	6	108	1	1	1	1	1	0	0	
+island7	7	104	1	1	1	1	1	1	1	
+island8	8	97	1	1	1	0	0	1	0	
+island9	9	93	1	1	1	1	1	1	1	
+island10	10	70	1	1	0	0	1	0	1	
+island11	11	62	1	1	1	0	1	0	0	
+island12	12	58	1	1	1	1	0	0	0	
+island13	13	51	1	1	1	0	1	1	1	
+island14	14	44	1	0	0	1	0	0	1	
+island15	15	40	1	0	1	0	1	1	1	
+island16	16	31	1	0	0	0	0	0	1	
+island17	17	25	1	0	0	0	0	1	0	
+island18	18	21	1	0	0	0	1	1	0	
+island19	19	18	1	0	0	1	1	0	0	
+island20	20	16	1	0	0	0	1	1	1	
+island21	21	12	1	0	0	1	0	0	1	
+island22	22	10	1	0	0	0	1	1	0	
+island23	23	8	1	0	0	1	0	0	1	
+island24	24	5	1	0	0	0	1	1	0	
+island25	25	3	1	0	0	0	0	1	0	
+island26	26	2	1	0	0	1	0	0	1	

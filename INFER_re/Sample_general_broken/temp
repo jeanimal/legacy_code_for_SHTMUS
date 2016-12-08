@@ -1,0 +1,30 @@
+
+sample_size
+useful_original
+struct useful_variables_struct useful;
+struct useful_variables_struct useful_training;
+struct useful_variables_struct useful_testing;
+i
+void
+Copy_Useful(struct useful_variables_struct *to_u,
+struct useful_variables_struct *from_u)
+{
+        to_u->num_cities= from_u->num_cities;
+        to_u->num_cues= from_u->num_cues;
+        to_u->num_percents= from_u->num_percents;
+
+        to_u->guess_cnt= from_u->guess_cnt;
+        to_u->cue_reverse= from_u->cue_reverse;
+        to_u->categorize= from_u->categorize;
+
+        to_u->actual_num_cities= from_u->actual_num_cities;
+}
+
+/* note: if CROSSVALIDATE is true, then world_array will actually
+ * hold only the testing half of the world.  The modelling half
+ * and actual world are declared below. */
+
+struct world_array_struct *actual_world_array;
+struct world_array_struct *modelling_world_array;
+
+

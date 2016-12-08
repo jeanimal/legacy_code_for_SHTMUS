@@ -1,0 +1,31 @@
+Spitting last number in files of Ave
+skipping non-file .
+skipping non-file ..
+RNDw.atm.100.496.1	0.703629
+RNDw.atw.100.435.1	0.673563
+RNDw.car.100.666.1	0.654655
+RNDw.chr.100.2000.1	0.697750
+RNDw.cit.100.3403.1	0.693947
+RNDw.cld.100.276.1	0.619565
+RNDw.fat.100.23653.1	0.541961
+RNDw.ful.100.1128.1	0.722074
+RNDw.glp.100.325.1	0.684615
+RNDw.hmf.100.1225.1	0.613469
+RNDw.hse.100.231.1	0.792208
+RNDw.kid.100.1035.1	0.672464
+RNDw.lnd.100.1653.1	0.688445
+RNDw.o2u.100.91.1	0.752747
+RNDw.oxd.100.136.1	0.750000
+RNDw.pol.100.190.1	0.731579
+RNDw.prf.100.1275.1	0.716471
+RNDw.shl.100.1596.1	0.607769
+RNDw.slp.100.595.1	0.722689
+RNDw.soz.100.55.1	0.781818
+
+------------------------
+done 20 files in Ave.
+sum is 13.821418
+mean is 0.6910709
+
+(0.025 confidence interval, median, 0.975 confidence interval):
+(0.541961, 0.697750, 0.792208)

@@ -1,0 +1,31 @@
+Spitting last number in files of Ave
+skipping non-file .
+skipping non-file ..
+ULin.atm.100.496.1	0.714718
+ULin.atw.100.435.1	0.675862
+ULin.car.100.666.1	0.751502
+ULin.chr.100.2000.1	0.696250
+ULin.cit.100.3403.1	0.740964
+ULin.cld.100.276.1	0.682971
+ULin.fat.100.23653.1	0.594618
+ULin.ful.100.1128.1	0.789450
+ULin.glp.100.325.1	0.749231
+ULin.hmf.100.1225.1	0.664898
+ULin.hse.100.231.1	0.833333
+ULin.kid.100.1035.1	0.688406
+ULin.lnd.100.1653.1	0.725953
+ULin.o2u.100.91.1	0.769231
+ULin.oxd.100.136.1	0.768382
+ULin.pol.100.190.1	0.728947
+ULin.prf.100.1275.1	0.752549
+ULin.shl.100.1596.1	0.635965
+ULin.slp.100.595.1	0.776471
+ULin.soz.100.55.1	0.790909
+
+------------------------
+done 20 files in Ave.
+sum is 14.53061
+mean is 0.7265305
+
+(0.025 confidence interval, median, 0.975 confidence interval):
+(0.594618, 0.740964, 0.833333)

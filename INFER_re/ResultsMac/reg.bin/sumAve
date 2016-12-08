@@ -1,0 +1,30 @@
+Spitting last number in files of Ave
+skipping non-file .
+skipping non-file ..
+Reg.atm.100.496.1	0.725806
+Reg.atw.100.435.1	0.705747
+Reg.car.100.666.1	0.789790
+Reg.chr.100.2000.1	0.755000
+Reg.cld.100.276.1	0.713768
+Reg.fat.100.23653.1	0.613580
+Reg.ful.100.1128.1	0.791223
+Reg.glp.100.325.1	0.801538
+Reg.hmf.100.1225.1	0.695918
+Reg.hse.100.231.1	0.857143
+Reg.kid.100.1035.1	0.737198
+Reg.lnd.100.1653.1	0.810647
+Reg.o2u.100.91.1	0.785714
+Reg.oxd.100.136.1	0.838235
+Reg.pol.100.190.1	0.831579
+Reg.prf.100.1275.1	0.827059
+Reg.shl.100.1596.1	0.718045
+Reg.slp.100.595.1	0.794958
+Reg.soz.100.55.1	0.854545
+
+------------------------
+done 19 files in Ave.
+sum is 14.647493
+mean is 0.770920684210526
+
+(0.025 confidence interval, median, 0.975 confidence interval):
+(0.613580, 0.789790, 0.857143)

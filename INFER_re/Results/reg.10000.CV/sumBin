@@ -1,0 +1,31 @@
+Spitting last number in files of Bin
+skipping non-file .
+skipping non-file ..
+Reg.atm.100.120.10000.CV	0.685045
+Reg.atw.100.105.10000.CV	0.669819
+Reg.car.100.153.10000.CV	0.638917
+Reg.chr.100.2000.10000.CV	0.749453
+Reg.cit.100.820.10000.CV	0.707450
+Reg.cld.100.66.10000.CV	0.558442
+Reg.fat.100.5886.10000.CV	0.553267
+Reg.ful.100.276.10000.CV	0.741877
+Reg.glp.100.78.10000.CV	0.724464
+Reg.hmf.100.300.10000.CV	0.614942
+Reg.hse.100.55.10000.CV	0.678543
+Reg.kid.100.253.10000.CV	0.632227
+Reg.lnd.100.406.10000.CV	0.796240
+Reg.o2u.100.21.10000.CV	0.716250
+Reg.oxd.100.28.10000.CV	0.760943
+Reg.pol.100.45.10000.CV	0.546678
+Reg.prf.100.300.10000.CV	0.796885
+Reg.shl.100.378.10000.CV	0.537249
+Reg.slp.100.136.10000.CV	0.646330
+Reg.soz.100.10.10000.CV	0.775615
+
+------------------------
+done 20 files in Bin.
+sum is 13.530636
+mean is 0.6765318
+
+(0.025 confidence interval, median, 0.975 confidence interval):
+(0.537249, 0.685045, 0.796885)

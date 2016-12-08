@@ -1,0 +1,22 @@
+heuristica results
+
+100 tests
+50% known
+100% knowledge
+
+take the best
+	train	test
+atm	.746	.771 
+atw	.752	.705 
+hs	.635	.637
+hmf	.695	.643
+pol	.644	.778
+cit	.699	.753
+hse	.882	.918
+lnd	.797	.745
+prf	.850	.777
+car	.752	.673
+
+
+
+

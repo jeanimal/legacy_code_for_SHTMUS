@@ -1,0 +1,8 @@
+Calculating confidence intervals of tempCI (with index starting 0).
+Filename,	0.025 interval,	median,	0.975 interval
+skipped tempCI/.
+skipped tempCI/..
+tempCI/DAT.RNDw.xca.100.153.10000.CV,	0.618777139900015,	0.619313739600015,	0.620022891300012
+
+------------------------
+done  files in tempCI.

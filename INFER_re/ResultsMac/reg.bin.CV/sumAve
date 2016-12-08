@@ -1,0 +1,31 @@
+Spitting last number in files of Ave
+skipping non-file .
+skipping non-file ..
+Reg.atm.100.120.10000.CV	0.684993
+Reg.atw.100.105.10000.CV	0.667815
+Reg.car.100.153.10000.CV	0.639599
+Reg.chr.100.2000.10000.CV	0.749486
+Reg.cit.100.820.10000.CV	0.707395
+Reg.cld.100.66.10000.CV	0.558316
+Reg.fat.100.5886.10000.CV	0.554030
+Reg.ful.100.276.10000.CV	0.741605
+Reg.glp.100.78.10000.CV	0.724051
+Reg.hmf.100.300.10000.CV	0.615911
+Reg.hse.100.55.10000.CV	0.688048
+Reg.kid.100.253.10000.CV	0.633827
+Reg.lnd.100.406.10000.CV	0.795774
+Reg.o2u.100.21.10000.CV	0.718050
+Reg.oxd.100.28.10000.CV	0.758938
+Reg.pol.100.45.10000.CV	0.545169
+Reg.prf.100.300.10000.CV	0.797080
+Reg.shl.100.378.10000.CV	0.537379
+Reg.slp.100.136.10000.CV	0.645460
+Reg.soz.100.10.10000.CV	0.774555
+
+------------------------
+done 20 files in Ave.
+sum is 13.537481
+mean is 0.67687405
+
+(0.025 confidence interval, median, 0.975 confidence interval):
+(0.537379, 0.688048, 0.797080)

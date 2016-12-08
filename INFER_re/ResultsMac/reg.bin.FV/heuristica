@@ -1,0 +1,30 @@
+200 Tests
+50% Training set
+100% knowledge
+
+regression
+	train	test
+atm 	0.742 	0.678
+atw	0.728	0.667
+shl	0.699	0.52	high school, differ BIG on train!
+hmf	0.715	0.612
+pol	0.523	0.515	mortality, differ BIG on train!
+cit	0.753	0.515  differ big on test set-- miscopied?
+hse	0.698	0.575 differ on test set.
+lnd	0.814	0.795
+prf	0.830	0.801
+car	0.814	0.619
+
+atm	0.736	0.677
+	0.743	0.674
+atw	0.722	0.681
+	0.731	0.667
+
+
+ttb
+
+atm	0.732	0.707
+	0.739	0.705
+atw	0.718	0.672
+	0.721	0.667
+

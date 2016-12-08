@@ -1,0 +1,140 @@
+1,27d0
+< /*
+<  *            INFER SOFTWARE
+<  *
+<  *    Copyright (c) 1999 Jean Czerlinski & Dan Goldstein.
+<  *            All Rights Reserved
+<  *
+<  *
+<  * This software is confidential and proprietory information of the
+<  * above copyright holders. You shall not disclose such Confidential
+<  * Information and shall use it only in accordance with the terms of the
+<  * license agreement you entered into the above copyright holders.
+<  *
+<  */
+< 
+< /* INFER is for comparing the accuracy and frugality of 
+<  * different inference (prediction) heuristics.
+<  *
+<  * The task is to infer which of two objects drawn from a population has
+<  * a higher value on a criterion variable based on several
+<  * numeric or binary variables.
+<  *
+<  * file: main.c
+<  * purpose: calls all the other functions-- the framework
+<  *
+<  */
+< 
+< 
+49d21
+< #include "simple_bayes.h"
+105c77
+<  * often needed for running the simulation */
+---
+>  * often needed for running the variables */
+120,121c92,93
+< 		Curr_per_index=0; /* each percent used (see Curr_per_array)
+< 					   * is assigned an index in the array */
+---
+> 				Curr_per_index=0; /* each percent used (see Curr_per_array)
+> 						   * is assigned an index in the array */
+135,138d106
+< /* CHANGE: for recording data to Datafilename */
+< double  correct_sum_so_far;
+< double  correct_this_round;
+< FILE    *dp;  /* for data on each round */
+141d108
+< 
+167c134
+<    srand48(time(0));
+---
+>    srandom(time(0));
+249,260d215
+< 
+< 	/* TO DO
+< 
+< 	Copy_Useful(useful, useful_fit);
+< 	Copy_Useful(useful, useful_pred);
+< 	useful_fit.num_cities= sample_size;
+< 	Then be careful to give the correct useful to the correct algorithm!
+< 	For input checking, it would be better to not have anything called useful anymore.
+< 	Call it useful_original.
+< 
+< 	*/
+< 
+310,322d264
+< 
+<         /* now redo cue validities-- no longer calculated in reversal
+<          * the function Fill_External... puts the cue valid. in the
+<          * cue validity array, which is inside alg_var */
+< /* I had this if-else commented out-- why? testing, I think */
+<         if (CROSSVALIDATE)
+<             Fill_External_Cv_Array(&alg_var, modelling_world_array,
+<                   sim_info.CVchoice, useful);
+<         else
+<             Fill_External_Cv_Array(&alg_var, world_array,
+<                   sim_info.CVchoice, useful);
+< 
+< 
+324,325c266
+<    	Print_World_Array_Struct(world_array, useful.num_cities, 
+<             useful.num_cues);
+---
+>    		Print_World_Array_Struct(world_array,useful.num_cities,useful.num_cues);
+370,372d310
+<     case 20:
+<       algpoint=HEADPREFIX Simple_Bayes;
+<       break;
+383,384d320
+< if (sim_info.Start_city_choice > useful.num_cities)
+< 	printf("SIMULATION ABANDONED: startcities %ld > num_cities %ld\n", sim_info.Start_city_choice, useful.num_cities); 
+386d321
+< 
+398,400d332
+<    /* for putting data for calculating 95% confidence intervals */
+<   dp = fopen(sim_info.Datafilename, "w+");
+<   correct_sum_so_far= 0;
+401a334,337
+> if (sim_info.Start_city_choice > useful.num_cities)
+> 	printf("SIMULATION ABANDONED: startcities %ld > num_cities %ld\n", sim_info.Start_city_choice, useful.num_cities); 
+> 
+> 
+406c342
+< 
+---
+>     
+440,441c376,377
+< 				case 14:
+< 				Fill_Ss_Cue_Order_Array_By_Validity(&alg_var, 
+---
+> 					case 14:
+> 					Fill_Ss_Cue_Order_Array_By_Validity(&alg_var, 
+443,447c379
+< 				if(DEBUG)
+< 				{
+<           			 printf("\ncrossvalidate-Ss Cue Order Array: ");
+<          			 Print_long_Array(alg_var.ss_cue_order_array, 
+< 				         useful.num_cues + 1);
+---
+> 					break;
+449,450d380
+< 				break;
+< 				}
+514,520d443
+< 		/* Data for calculating 95% confidence intervals */
+< 		correct_this_round= 
+< 		  score_matrix_ptr[Curr_city * useful.num_percents + 
+< 		  Curr_per_index].correct   -   correct_sum_so_far; 
+< 		fprintf(dp, "%f\n", correct_this_round / sim_info.Questchoice);
+< 		correct_sum_so_far+= correct_this_round;
+< 
+522,524d444
+< 
+< 	    fprintf(dp, "-------\n");
+< 
+527d446
+< 	fprintf(dp, "**************\n");
+529d447
+< 
+538d455
+<    fclose(dp);

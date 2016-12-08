@@ -1,0 +1,57 @@
+#!/bin/csh
+
+
+set filename = $HOME/Files/Prog/Data/data_charregg
+echo filename is $filename
+
+pmmnew > out << .
+$filename
+14
+10000
+1
+1
+0
+0
+.
+
+pmmnew > out << .
+$filename
+6
+10000
+1
+1
+0
+0
+.
+
+pmmnew > out << .
+$filename
+15
+10000
+1
+1
+0
+0
+.
+
+
+pmmnew > out << .
+$filename
+4
+10000
+1
+1
+0
+0
+.
+
+pmmnew > out << .
+$filename
+5
+10000
+1
+1
+0
+0
+.
+

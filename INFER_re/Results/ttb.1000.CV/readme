@@ -1,0 +1,6 @@
+all the DAT files should have .CV on the end.  
+They *are* from cross-validated runs.
+pmmnew is now fixed so it'll append .CV.
+
+JFC, Mar. 24, 2001
+

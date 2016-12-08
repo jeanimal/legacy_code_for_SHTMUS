@@ -1,0 +1,44 @@
+ResultsMac	-	Jean Czerlinski	-	October/November 2001
+
+Results on my Macintosh for INFER simulations to compare algorithm performance.
+
+Names of directories are in the format:
+algorithm.datatype.simtype
+
+algorithms are
+ttb	take the best
+ulinT	unit linear (not trimmed!!  I just forgot to lop off the T in getsiminfo.c)
+reg	regression
+rnd	minimalist (random cue order)
+
+datatypes are
+bin	binary cues
+real	real-valued cues (in whatever their original form was)
+
+simtype
+CV	cross-validation (build model on one half, test on other half)
+FV	fit-validation (build model on one half, test on that same data)
+	straight fit (build model on all the data, test on all the data)
+
+
+
+Inside each directory, you'll find the following:
+Ave	directory of files with average score on each data set
+CI	directory of files with all 10,000 scores on each data set
+sumAve	file summarizing the average scores in directory Ave
+sumCI	file with the confidence intervals based on the data in CI
+Note: straight fit doesn't have CI and sumCI since there's only one fit per data set.
+
+To generate these summary results, use the perl commands I have set up.
+
+
+spitlast.pl dirName > outputFile to summarize the average scores. 
+It "spits" out the "last" number of each file, preceded by the file name. e.g.
+spitlast.pl Ave > sumAve
+
+dirci.pl dirName > outputFile to calculate confidence intervals for 10,000 scores.  
+This run overa  whole "dir"ectory's "CI"s takes several minutes as it involves calculations. e.g.
+dirci.pl CI > sumCI
+
+Do a cartwheel for me, since I'm stuck in front of this keyboard.
+

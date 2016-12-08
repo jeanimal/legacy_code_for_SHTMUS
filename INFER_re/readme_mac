@@ -1,0 +1,13 @@
+
+How to update for the mac
+
+Scripts
+
+The shell interpreter is in a new location:
+#!/bin/tcsh
+
+Some shells have the data set path coded.  it now has an extra level and should be:
+$HOME/Prog/Data/data_name     e.g.
+$HOME/Prog/Data/data_charregg
+
+

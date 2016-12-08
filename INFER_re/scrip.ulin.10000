@@ -1,0 +1,251 @@
+#!/bin/csh
+
+echo animal_sleep
+pmmnew > out << . 
+data_animal_sleep_bin
+4
+10000
+1
+1
+0
+0
+.
+
+
+echo cloud_seeding
+pmmnew > out << .
+data_cloud_seeding_bin
+4
+10000
+1
+1
+0
+0
+.
+
+
+echo house_prices
+pmmnew > out << .
+data_house_price_bin
+4
+10000
+1
+1
+0
+0
+.
+
+echo fat_boygirl 
+pmmnew > out << .
+data_fat_boygirl_bin
+4
+10000
+1
+1
+0
+0
+.
+
+
+echo dropout
+pmmnew > out << .
+data_dropout_bin
+4
+10000
+1
+1
+0
+0
+.
+
+
+
+echo land_rent
+pmmnew > out << .
+data_land_rent_bin
+4
+10000
+1
+1
+0
+0
+.
+
+
+
+echo fat_size
+pmmnew > out << .
+data_fat_size_bin
+4
+10000
+1
+1
+0
+0
+.
+
+
+echo o2_uptake
+pmmnew > out << .
+data_o2_uptake_bin
+4
+10000
+1
+1
+0
+0
+.
+
+
+echo car_accident
+pmmnew > out << .
+data_car_accident_bin
+4
+10000
+1
+1
+0
+0
+.
+
+
+echo fuel
+pmmnew > out << .
+data_fuel_bin
+4
+10000
+1
+1
+0
+0
+.
+
+
+echo oxidant
+pmmnew > out << .
+data_oxidant_bin
+4
+10000
+1
+1
+0
+0
+.
+
+
+echo galapagos
+pmmnew > out << .
+data_galapagos_bin
+4
+10000
+1
+1
+0
+0
+.
+
+
+echo pollut-mortal
+pmmnew > out << .
+data_pollut-mortal_bin
+4
+10000
+1
+1
+0
+0
+.
+
+
+
+
+echo germanmen
+pmmnew > out << .
+data_germanmen_bin
+4
+10000
+1
+1
+0
+0
+.
+
+
+echo prof_salary
+pmmnew > out << .
+data_prof_salary_bin
+4
+10000
+1
+1
+0
+0
+.
+
+
+echo cities
+pmmnew > out << .
+data_cities_bin
+4
+10000
+1
+1
+0
+0
+.
+
+
+echo germanwomen
+pmmnew > out << .
+data_germanwomen_bin
+4
+10000
+1
+1
+0
+0
+.
+
+
+echo sf_ozone
+pmmnew > out << .
+data_sf_ozone_bin
+4
+10000
+1
+1
+0
+0
+.
+
+
+
+echo homelessfull
+pmmnew > out << .
+data_homelessfull_bin
+4
+10000
+1
+1
+0
+0
+.
+
+#data_baseball_bin
+#data_birthweight_bin when it's ready
+
+echo charregg
+pmmnew > out << .
+data_charregg_bin
+4
+10000
+1
+0
+2000
+0
+0
+.
+
+
+echo --------- done
+

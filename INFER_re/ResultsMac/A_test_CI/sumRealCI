@@ -1,0 +1,10 @@
+Calculating confidence intervals of Test (with index starting 0).
+Filename,	0.025 interval,	median,	0.975 interval
+skipped Test/.
+skipped Test/..
+Test/file1,	45.59,	50.6,	55.42
+Test/file2,	46.01,	50.22,	55.15
+Test/file3,	1,	1,	1
+
+------------------------
+done  files in Test.

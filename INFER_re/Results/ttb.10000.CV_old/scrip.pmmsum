@@ -1,0 +1,13 @@
+#!/usr/bin/csh
+
+mkdir Bin
+mkdir Real
+mv PMMw.x* Real
+mv PMMw* Bin
+mv Bin/*.bat.* .
+mv Real/*.xbt.* .
+$HOME/Perl/spitlast.pl Bin > sumBin
+$HOME/Perl/spitlast.pl Real > sumReal
+more sumBin
+
+

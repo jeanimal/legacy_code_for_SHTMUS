@@ -1,0 +1,31 @@
+Spitting last number in files of Bin
+skipping non-file .
+skipping non-file ..
+RNDw.atm.100.496.1	0.711694
+RNDw.atw.100.435.1	0.668966
+RNDw.car.100.666.1	0.656156
+RNDw.chr.100.77815.1	0.699923
+RNDw.cit.100.3403.1	0.704232
+RNDw.cld.100.276.1	0.623188
+RNDw.fat.100.23653.1	0.545935
+RNDw.ful.100.1128.1	0.719415
+RNDw.glp.100.325.1	0.696923
+RNDw.hmf.100.1225.1	0.601224
+RNDw.hse.100.231.1	0.818182
+RNDw.kid.100.1035.1	0.664734
+RNDw.lnd.100.1653.1	0.695705
+RNDw.o2u.100.91.1	0.730769
+RNDw.oxd.100.136.1	0.698529
+RNDw.pol.100.190.1	0.636842
+RNDw.prf.100.1275.1	0.723529
+RNDw.shl.100.1596.1	0.610902
+RNDw.slp.100.595.1	0.700840
+RNDw.soz.100.55.1	0.781818
+
+------------------------
+done 20 files in Bin.
+sum is 13.689506
+mean is 0.6844753
+
+(0.025 confidence interval, median, 0.975 confidence interval):
+(0.545935, 0.698529, 0.818182)
