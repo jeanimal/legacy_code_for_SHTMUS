@@ -1,5 +1,5 @@
 # legacy_code_for_SHTMUS
-This code from the late 1990's generated the data discussed in the book, Simple Heuristics That Make Us Smart (SHTMUS).
+This C code and data files are from the late 1990's.  They were used to generate the results discussed in the book, Simple Heuristics That Make Us Smart (SHTMUS).
 
 As of 2016-12-07, I have not tried to compile anything.
 
