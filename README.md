@@ -7,3 +7,7 @@ As of 2016-12-07, I have not tried to compile anything.
 * INFER_re: A partial rewrite to do more cool stuff that I can't remember.  My file system shows it was last touched in 2011.
 
 Data sets with real values were binaritized externally.
+
+UPDATE: An R version of equivalent code is available at:
+* Github: https://github.com/jeanimal/heuristica
+* CRAN: https://cran.r-project.org/web/packages/heuristica/index.html 
